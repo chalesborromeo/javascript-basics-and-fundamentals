@@ -1,0 +1,9 @@
+// Setup
+function testNotEqual(val) {
+  if (99 != val) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(10);
